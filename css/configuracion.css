@@ -12,9 +12,7 @@ html {
 :root{
 
     /* variables de color*/
-    --azul1: #345FB4;
-    --azul2: #6789CA;
-    --azul3: #6688CA;
+    --background: #fb953d;
     --gris1: #313131;
     --gris2: #777777;
     --gris3: #A5A5A5;
@@ -31,9 +29,20 @@ html {
 
 
 .section-administrador{
-    display: flex;
+    display: none;
     flex-direction:row;
     justify-content: space-between;
     background: rgba(217, 217, 217, 1);
 
+}
+
+/* Activador de elementos*/
+.activar-block {
+    display: flex;
+}
+.activar-flex {
+    display: flex;
+}
+.desactivar {
+    display: none;
 }
