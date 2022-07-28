@@ -22,7 +22,7 @@ function ver(){
  *********************/
 
 /* Librería de los programas */
-import {revisarusuario} from "./login.js"
+import {revisarusuario} from "./componentes/login.js"
 
 function recuperar_datos(e) {
     e.preventDefault(); //<-- Evita que el formulario se recargue
