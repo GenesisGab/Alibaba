@@ -6,8 +6,10 @@ export var section_login = document.getElementById("section-login");
 import { administrador } from "./administrador.js";
 import { user_ob } from "../data/user.js";
 
+
 export function revisarusuario(usuario, password){
     
+
     /* Con un for se recorre la Base de Datos de Usuarios para validar las
     credenciales ingresadas */
     
@@ -41,3 +43,4 @@ export function revisarusuario(usuario, password){
     }
  
 }
+
