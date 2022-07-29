@@ -1,6 +1,7 @@
 /* LIBRERIA DE COMPPONENTES */
 export var section_administrador = document.getElementById("section-administrador");
 export var section_login = document.getElementById("section-login");
+export var section_header = document.getElementById("section-header");
 
 /* LIBRERIAS BD USER Y ADMINISTRADOR*/
 import { administrador } from "./administrador.js";
@@ -9,6 +10,24 @@ import { user_ob } from "../data/user.js";
 
 export function revisarusuario(usuario, password){
     
+  //CREACION DEL DISEÑO DEL FORMULARIO
+  let forms = document.querySelector("#section-login");
+  forms.innerHTML =
+
+  '<img class="formulario_img2" src="https://www.logo.wine/a/logo/Alibaba_Group/Alibaba_Group-Logo.wine.svg">'+
+  '<form class="form-login" action="" id="login" autocomplete="off">'+
+      '<img class="formulario_img" src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-orange.png">'+
+      '<h2>Welcome</h2>'+
+      '<span class="formulario_sub">Login</span>'+
+      '<label class="formulario__label" for=""> Usuario/Email <input type="texto" id="username"></label>'+
+      '<label class="formulario__label" for=""> Password <input type="password" id="password"></label>'+
+      '<button>ENTRAR</button>'+
+  '</form>';
+
+  
+    /******************
+     * PROGRAMACIÓN
+     *****************/
 
     /* Con un for se recorre la Base de Datos de Usuarios para validar las
     credenciales ingresadas */
@@ -44,3 +63,4 @@ export function revisarusuario(usuario, password){
  
 }
 
+revisarusuario();

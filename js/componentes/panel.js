@@ -9,7 +9,7 @@ export function panel (){
         '<div class="elementos">Option</div>'+
         '<div class="elementos">Category</div>'+
         '<div class="elementos">Orders</div>'+
-        '<div class="elementos">Orders has products</div>'+
+        '<div class="elementos">Orders has products</div>'+ 
         '<div class="elementos">Orders paid creditcard</div>'+
         '<div class="elementos">Orders placed user</div>'+
         '<div class="elementos">Products</div>'+
@@ -20,3 +20,4 @@ export function panel (){
         '<div class="elementos">Shopingcart</div>'+
         '<div class="elementos">Vendor</div>';
 }
+

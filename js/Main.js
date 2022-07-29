@@ -1,30 +1,11 @@
-/*
-import{user_ob}from "./data/user.js";
-
-let bt_ver = document.querySelector('#bt_ver');
-let root = document.querySelector("#archivos");
-
-//FUNCTION VER
-function ver(){
-
-    root.innerHTML = '<div class="archivos" id="archivos">'+ 
-                         '<div class="element">'+user_ob[0].nikname+'</div>'+  
-                    '</div>'
-                   
-  }
-  
-  bt_ver.addEventListener('click',ver);
-  */
-
-  
- /**********************
+/**********************
  * INICIO DE SESIÓN
  *********************/
 
 /* Librería de los programas */
 import {revisarusuario} from "./componentes/login.js"
 import {panel}from "./componentes/panel.js"//<-- Diseño del panel de informacion
-
+import {header}from "./componentes/menu.js"
 function recuperar_datos(e) {
     e.preventDefault(); //<-- Evita que el formulario se recargue
 
@@ -39,4 +20,5 @@ function recuperar_datos(e) {
 var bt_entrar = document.querySelector("#login");//<-- Instancia del formulario
 bt_entrar.addEventListener('submit',recuperar_datos); //<-- Evento
 
-panel()//<-- Se llama al panel
+
+panel();//<-- Se llama al panel

@@ -29,16 +29,19 @@ html {
 
 
 .section-administrador{
+    
     display: none;
+    /*
     flex-direction:row;
     justify-content: space-between;
-    background: rgba(217, 217, 217, 1);
-
+    */
+   
 }
 
 /* Activador de elementos*/
 .activar-block {
     display: flex;
+   
 }
 .activar-flex {
     display: flex;
@@ -46,3 +49,7 @@ html {
 .desactivar {
     display: none;
 }
+.activarHeader{
+    display: flex;
+}
+
