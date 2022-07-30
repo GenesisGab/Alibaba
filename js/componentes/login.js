@@ -1,7 +1,6 @@
 /* LIBRERIA DE COMPPONENTES */
 export var section_administrador = document.getElementById("section-administrador");
 export var section_login = document.getElementById("section-login");
-export var section_header = document.getElementById("section-header");
 
 /* LIBRERIAS BD USER Y ADMINISTRADOR*/
 import { administrador } from "./administrador.js";

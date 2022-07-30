@@ -27,20 +27,19 @@ html {
 --size-parrafo: 1.6rem;
 }
 
+.composiscion{
+    display: flex;
+    justify-content: space-between;
+}
 
 .section-administrador{
     
     display: none;
-    /*
-    flex-direction:row;
-    justify-content: space-between;
-    */
-   
 }
 
 /* Activador de elementos*/
 .activar-block {
-    display: flex;
+    display: grid;
    
 }
 .activar-flex {
@@ -48,8 +47,5 @@ html {
 }
 .desactivar {
     display: none;
-}
-.activarHeader{
-    display: flex;
 }
 
